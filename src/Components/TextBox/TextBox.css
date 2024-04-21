@@ -1,0 +1,263 @@
+.container {
+  position: absolute;
+  top: 5%;
+  background-color: #f9f9ed;
+  width: 100%;
+  height: 95%;
+  display: flex;
+  margin-left: 77px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.box1 {
+  width: 96vw;
+  height: 90vh;
+  background-color: #f9f9ed;
+  margin-top: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.kavya {
+  margin-top:30px;
+  background-color: #bcbac0;
+  height: 93%;
+  width: 32%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0px;
+  padding: 2%;
+}
+
+.kavya2 {
+  margin-top: 30px;
+  background-color:#bcbac0;
+  height: 93%;
+  width: 100%;
+  left: 50%;
+  margin-left: 21px;
+  border-radius: 5px;
+  padding: 2%;
+}
+
+.form {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  background-color: #bcbac0;
+  width: 100%;
+  flex-direction: column;
+  border-radius: 10%;
+}
+.inputFeild {
+  background-color: rgb(255, 255, 255);
+  height: 90%;
+  width: 95%;
+  padding: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color:#6f7079;
+}
+.inputFeild1 {
+  background-color: rgb(255, 255, 255);
+  height: 90%;
+  width: 98%;
+  padding: 15px;
+  padding-left: 40px;
+  border-radius: 1%;
+  margin-left: 10px;
+  padding-right: 40px;
+  color:#6f7079;
+}
+
+
+.outerbtn{
+  margin-top: 20px;
+  height: 50px;
+  width: 300px;
+  background-color:#bcbac0;
+  border-radius: 10px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.submitbtn {
+  background-color:#e8ebe4;
+  width: 120%;
+  height: 80%;
+  margin-right: 20px;
+  margin-left: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  color: rgb(164, 155, 184);
+  font-size: larger;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.textarea {
+  height: 90%;
+  width: 100%;
+  padding: 4px;
+
+}
+
+.dhruv {
+  width: 100%;
+  height: 6.5%;
+  margin-top: 11px;
+  background-color: #bcbac0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+.inputbtn {
+  width: 80%;
+  height: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 12px;
+
+}
+
+.submitbtn1 {
+  background-color:#e8ebe4;
+  width: 26%;
+  height: 100%;
+  margin-right:5px;
+  margin-left: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  color: rgb(164, 155, 184);
+  font-size: larger;
+  padding-left: 5px;
+  border-radius: 10px;
+
+}
+
+bottomsection svg {
+  width: 25px;
+  height: 25px;
+  background-color: gray;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.bottomsection svg:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.bottomsection .messagebar {
+  border: 1px solid gray;
+  align-items: center;
+  display: flex;
+  padding: 15px;
+  border-radius: 10px;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.bottomsection .messagebar input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  color: var(--textcol);
+  width: 100%;
+}
+
+.messages {
+  height: 90%;
+  width: 100%;
+  padding-left: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  overflow: auto ;
+  max-height: 850px;
+}
+
+.messages .message {
+  display: flex;
+  gap: 10px;
+}
+
+.messages .message img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.messages .message div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.messages .message div h2 {
+  color: var(--textcol);
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.messages .message div p {
+  color: var(--textcol);
+  font-size: 15px;
+  max-width: 1000px;
+}
+
+.bottomsection p {
+  color: goldenrod;
+}
+
+
+@media (max-width: 731px) {
+  .container .landingpage .right {
+    display: flex;
+    align-items: end;
+  }
+  .container .landingpage .right img {
+    height: 11em;
+    width: 11em;
+    object-fit: contain;
+  }
+  .container .landingpage .left h1 {
+    font-size: 1.7em;
+  }
+}
+@media (max-width: 410px) {
+  .container .landingpage {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .container .landingpage .left {
+    display: block;
+    width: 100%;
+  }
+  .container .landingpage .right {
+    display: block;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .container .landingpage .right {
+    display: flex;
+    align-items: end;
+  }
+  .container .landingpage .right img {
+    height: 8em;
+    width: 8em;
+    object-fit: contain;
+  }
+}
